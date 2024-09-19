@@ -40,10 +40,10 @@ a {
     display: flex;
     align-items: center;
 }
-.navbar{
+.navbar {
     margin-left: 70px;
 }
-.header-action{
+.header-action {
     margin-left: auto;
 }
 .nav__list {
@@ -65,4 +65,220 @@ a {
 .header-action__btn {
     --height: 52px;
     min-width: 113px;
+}
+/* hero */
+.hero {
+    margin-top: 76px;
+}
+.hero__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 160px;
+}
+.hero__content {
+    width: 522px;
+}
+.hero__title {
+    position: relative;
+    padding-left: 30px;
+    color: #696d77;
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.hero__title::before {
+    position: absolute;
+    display: block;
+    top: 13px;
+    left: 0;
+    content: "";
+    width: 22px;
+    height: 2px;
+    background: #696d77;
+}
+.hero__heading {
+    margin-top: 12px;
+    color: #212832;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.16;
+}
+.hero__desc {
+    margin-top: 20px;
+    color: #696d76;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.16;
+}
+.search__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 8px 0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.07);
+}
+.search-form__input {
+    height: 67px;
+    width: 67%;
+    margin-left: 23px;
+    border: none;
+    outline: none;
+    color: #696d76;
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+.search-form__submit {
+    padding: 15px 30px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 8px;
+    background: #7264d6;
+    color: #fff;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+}
+.hero__note {
+    margin-top: 20px;
+    color: #696d76;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.71;
+}
+/* hero media */
+.hero__phone {
+    position: relative;
+    width: 300px;
+    height: 562px;
+    border-radius: 40px;
+    border: 12px solid #212832;
+    background: #fff;
+}
+.hero__phone::before {
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: url(/asset/img/hero_phone-top.svg);
+    display: inline-block;
+    z-index: 1;
+}
+.hero__phone-card {
+    margin: 37px 12px 0;
+    border-radius: 20px;
+    background: linear-gradient(76deg, #9487ea 11.52%, #8638e5 70.78%);
+}
+.hero__phone-card-body {
+    padding: 16px;
+}
+.hero__phone-row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__phone-title {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.hero__phone-heading {
+    margin-top: 2px;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.hero__phone-row2 {
+    margin-top: 32px;
+    display: flex;
+    column-gap: 12px;
+}
+.hero__row-desc2 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.hero__phone-row3 {
+    display: flex;
+    column-gap: 36px;
+}
+.hero__row-desc3 {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.hero__phone-body {
+    margin: 24px 12px 42px;
+}
+.hero__phone-body-trans {
+    display: flex;
+    justify-content: space-between;
+}
+.hero__trans-heading {
+    color: #31456a;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.hero__phone-review {
+    margin-top: 28px;
+}
+.hero__review-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.hero__item-intro {
+    margin-left: 16px;
+}
+.hero__item-price {
+    margin-left: auto;
+}
+.hero__intro-heading {
+    color: #212832;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.hero__intro-desc {
+    color: #696d76;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+}
+.hero__intro-price-desc {
+    text-align: right;
+    color: #696d76;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+}
+.hero__cata-01 {
+    position: absolute;
+    left: 338px;
+    top: 127px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #da6464;
+
+}
+.hero__cata-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 4.4rem;
+    font-weight: 600;
+}
+.hero__cata-desc {
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
 }
