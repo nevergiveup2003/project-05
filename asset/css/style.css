@@ -296,12 +296,28 @@ a {
 .about__media-image {
     bottom: 0;
 }
+.about__content-icon {
+    position: absolute;
+    left: 339px;
+    top: 0;
+}
 .about__media-user {
     display: block;
     position: absolute;
     left: 5px;
     bottom: 2px;
 }
+.about__media-adv {
+    position: absolute;
+    display: flex;
+    padding: 15px;
+    right: -114px;
+    bottom: 92px;
+    border-radius: 8px;
+    background: #fffdfa;
+    box-shadow: 0px 14px 34px 0px rgba(0, 0, 0, 0.07);
+}
+
 .hero__title {
     margin-bottom: 12px;
 }
@@ -326,5 +342,93 @@ a {
     color: #696d76;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.75; 
+    line-height: 1.75;
+}
+/* card */
+.card {
+    margin-top: 160px;
+}
+.card-inner {
+    display: flex;
+    column-gap: 97px;
+}
+.card__heading {
+    width: 470px;
+    margin: 12px 0 20px;
+    color: #212832;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.card__content-desc {
+    width: 470px;
+    color: #696d76;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+.card-list {
+    margin: 28px 0 38px;
+}
+.card-item {
+    color: #212832;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+    margin-top: 18px;
+}
+.card-item::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    margin-right: 12px;
+    background: #7264d6;
+    border-radius: 50%;
+}
+.card__media {
+    position: relative;
+}
+.card-box {
+    padding: 38px;
+    border-radius: 20px;
+    background: linear-gradient(76deg, #9487ea 11.52%, #8638e5 70.78%);
+}
+.card-row {
+    display: flex;
+    column-gap: 175px;
+    justify-content: space-between;
+}
+.card-title {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+.card-heading {
+    margin: 10px 0 100px;
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.card__bottom-row {
+    display: flex;
+    column-gap: 28px;
+}
+.card-desc {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.card-adv-01 {
+    position: absolute;
+    z-index: 1;
+    width: 276px;
+    top: -33px;
+    right: -100px;
+    padding: 23px 12px 0 ;
+    margin-bottom: 0;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.07);
 }
