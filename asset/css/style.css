@@ -476,3 +476,248 @@ a {
 .digital-item-2 {
     margin-top: 18px;
 }
+/* CLIENT */
+.client {
+    margin-top: 160px;
+}
+.client__top {
+    width: 435px;
+    margin: 0 auto;
+    text-align: center;
+}
+.client__our-cent {
+    color: #696d77;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.client__heading {
+    margin: 12px 0 18px;
+    color: #212832;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.client__desc {
+    color: #696d76;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.client-list {
+    display: flex;
+    column-gap: 30px;
+}
+.client__body {
+    margin-top: 70px;
+}
+.client-idea {
+    border: 1px solid black;
+    background: #fff;
+    box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.1);
+}
+.client-intro {
+    padding: 12px 28px;
+    color: #696d76;
+    text-align: center;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.54;
+}
+.client__item-box {
+    text-align: center;
+}
+.client-user {
+    margin: 36px 0 20px;
+}
+.client-name {
+    margin-bottom: 2px;
+    color: #070052;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+}
+.client-pro {
+    color: #696d76;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+/* our blog */
+.blog {
+    margin-top: 160px;
+}
+.blog__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog__top-heading {
+    margin-bottom: 18px;
+    color: #212832;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.25; /* 125% */
+}
+.blog__top-desc {
+    width: 435px;
+    color: #696d76;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.blog_bottom {
+    margin-top: 70px;
+}
+.blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "item-1 item-1 item-2 item-2"
+        "item-3 item-3 item-4 item-4";
+}
+.blog-item {
+    border: 1px solid black;
+    padding: 28px;
+    border-radius: 12px;
+    border: 1px solid #dfe2e8;
+    background: #fff;
+}
+.blog__item-body {
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+}
+.blog-time {
+    margin: 10px 0;
+    color: #696d76;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.71;
+}
+.blog__item-heading {
+    margin-bottom: 20px;
+    color: #212832;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+.blog-link {
+    color: #696d76;
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.62;
+}
+.blog-link:hover {
+    color: #7264d6;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.62;
+}
+.blog-item:hover {
+    border: none;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+}
+.blog__item-1 {
+    grid-area: item-1;
+    margin-right: 30px;
+}
+
+.blog__item-2 {
+    grid-area: item-2;
+}
+
+.blog__item-3 {
+    grid-area: item-3;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.blog__item-4 {
+    margin-top: 30px;
+    grid-area: item-4;
+}
+/* app */
+.app {
+    margin-top: 160px;
+}
+.app__body {
+    border-radius: 24px;
+    background: #7264d6;
+    height: 466px;
+    margin: 0 auto;
+}
+.our__app-heading {
+    padding-top: 140px;
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.our__app-desc {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 435px;
+    margin-top: 18px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.app-row {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+}
+.footer {
+    margin-top: 100px;
+}
+.footer-lists {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-heading {
+    margin-bottom: 24px;
+    color: #212832;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+.footer__item li {
+    color: #6a6e78;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+    margin-bottom: 10px;
+}
+.footer-desc {
+    color: #6a6e78;
+    font-family: "Open Sans";
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66; 
+}
+.footer__item-bot {
+    margin-top: 20px;
+}
+.footer-form {
+    margin: 0;
+}
+.footer__bot-heading {
+    margin: 0;
+}
